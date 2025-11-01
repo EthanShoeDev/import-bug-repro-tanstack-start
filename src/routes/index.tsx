@@ -1,3 +1,4 @@
+import TestForm from '@/components/test-form'
 import { createFileRoute } from '@tanstack/react-router'
 import {
   Zap,
@@ -113,6 +114,7 @@ function App() {
           ))}
         </div>
       </section>
+      <TestForm />
     </div>
   )
 }
